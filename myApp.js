@@ -3,7 +3,6 @@ const helmet = require("helmet");
 const app = express();
 const ninetyDaysInSeconds = 90*24*60*60;
 const timeInSeconds = ninetyDaysInSeconds;
-const bcrypt = require('bcrypt');
 
 app.use(helmet());
 
